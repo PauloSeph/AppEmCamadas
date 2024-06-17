@@ -6,6 +6,8 @@ using MyMusic.Core.models;
 
 namespace MyMusic.Core.Repositories
 {
+
+     // Estamos estendendo/Herdando a BaseRepositoryInterface
     public interface IMusicRepository : IBaseRepository<Music>
     {        Task<IEnumerable<Music>> GetAllWithArtistAsync();
         Task<Music> GetWithArtistByIdAsync(int id);

@@ -38,9 +38,10 @@ namespace MyMusic.Data.Repositories
                 throw new ArgumentException();
             }
 
-            // return await MyMusicDbContext.Musics
+            // return await Context.Musics
             //     .Include(m => m.Artist)
             //     .SingleOrDefaultAsync(m => m.Id == id);
+                
         }
 
         public async Task<IEnumerable<Music>> GetAllWithArtistByArtistIdAsync(int artistId)
