@@ -16,8 +16,7 @@ namespace MyMusic.Data.Configurations
                 .HasKey(a => a.Id);
 
             builder
-                .Property(m => m.Id)
-                .UseIdentityColumn();
+                .Property(m => m.Id).UseMySqlIdentityColumn();
                 
             builder
                 .Property(m => m.Name)

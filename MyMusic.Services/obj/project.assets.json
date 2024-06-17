@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RepoAspNet\\emCamadas\\MyMusic.Services\\MyMusic.Services.csproj",
+      "projectUniqueName": "C:\\RepoAspNet\\EmCamadas\\MyMusic.Services\\MyMusic.Services.csproj",
       "projectName": "MyMusic.Services",
-      "projectPath": "C:\\RepoAspNet\\emCamadas\\MyMusic.Services\\MyMusic.Services.csproj",
+      "projectPath": "C:\\RepoAspNet\\EmCamadas\\MyMusic.Services\\MyMusic.Services.csproj",
       "packagesPath": "C:\\Users\\Zef\\.nuget\\packages\\",
-      "outputPath": "C:\\RepoAspNet\\emCamadas\\MyMusic.Services\\obj\\",
+      "outputPath": "C:\\RepoAspNet\\EmCamadas\\MyMusic.Services\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Zef\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\RepoAspNet\\emCamadas\\MyMusic.Core\\MyMusic.Core.csproj": {
-              "projectPath": "C:\\RepoAspNet\\emCamadas\\MyMusic.Core\\MyMusic.Core.csproj"
+            "C:\\RepoAspNet\\EmCamadas\\MyMusic.Core\\MyMusic.Core.csproj": {
+              "projectPath": "C:\\RepoAspNet\\EmCamadas\\MyMusic.Core\\MyMusic.Core.csproj"
             }
           }
         }

@@ -1,4 +1,7 @@
 
+using Microsoft.EntityFrameworkCore;
+using MyMusic.Data.Data;
+
 namespace MyMusic.Api;
 
 public class Program
@@ -13,6 +16,13 @@ public class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+
+        var connectString = builder.Configuration.GetConnectionString("MyStrConnect");
+        
+        builder.Services.AddDbContext<DataContext>( options => {
+            options.UseMySql(connectString, ServerVersion.AutoDetect(connectString));
+        });
+
 
         var app = builder.Build();
 

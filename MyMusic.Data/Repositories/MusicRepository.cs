@@ -14,7 +14,7 @@ namespace MyMusic.Data.Repositories
             : base(context)
         { }
 
- 
+
         public async Task<IEnumerable<Music>> GetAllWithArtistAsync()
         {
             return await Context.Musics
@@ -24,9 +24,19 @@ namespace MyMusic.Data.Repositories
 
         public async Task<Music> GetWithArtistByIdAsync(int id)
         {
-            var artista = await Context.Musics.Include(m => m.Artist).SingleOrDefaultAsync(m => m.Id == id);
-            
-            return artista!;
+            var test = await Context.Musics
+                .Include(m => m.Artist)
+                .SingleOrDefaultAsync(m => m.Id == id);
+
+            if (test != null)
+            {
+                return test;
+
+            }
+            else
+            {
+                throw new ArgumentException();
+            }
 
             // return await MyMusicDbContext.Musics
             //     .Include(m => m.Artist)
@@ -44,7 +54,7 @@ namespace MyMusic.Data.Repositories
 
 
 
-     
+
 
 
 }

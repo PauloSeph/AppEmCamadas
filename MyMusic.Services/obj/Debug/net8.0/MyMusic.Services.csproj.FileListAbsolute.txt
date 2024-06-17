@@ -1,0 +1,16 @@
+C:\RepoAspNet\emCamadas\MyMusic.Services\bin\Debug\net8.0\MyMusic.Services.deps.json
+C:\RepoAspNet\emCamadas\MyMusic.Services\bin\Debug\net8.0\MyMusic.Services.dll
+C:\RepoAspNet\emCamadas\MyMusic.Services\bin\Debug\net8.0\MyMusic.Services.pdb
+C:\RepoAspNet\emCamadas\MyMusic.Services\bin\Debug\net8.0\MyMusic.Core.dll
+C:\RepoAspNet\emCamadas\MyMusic.Services\bin\Debug\net8.0\MyMusic.Core.pdb
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic.Services.csproj.AssemblyReference.cache
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic.Services.AssemblyInfoInputs.cache
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic.Services.AssemblyInfo.cs
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic.Services.csproj.CoreCompileInputs.cache
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic.Services.sourcelink.json
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic..0A413481.Up2Date
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic.Services.dll
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\refint\MyMusic.Services.dll
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\MyMusic.Services.pdb
+C:\RepoAspNet\emCamadas\MyMusic.Services\obj\Debug\net8.0\ref\MyMusic.Services.dll

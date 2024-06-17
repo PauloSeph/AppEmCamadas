@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9NIiDLWweyj0dHZxs1b0qLp5RApAuWmrKOI5SJRVwlNIJRmm1MFTbTmMZmJZQXcyKJzS1Z89RZ0pr3rmsgwmfQ==",
+  "dgSpecHash": "O3Aclv8F4qxWrZ4JUvXXEpAzMaJE/1QSELjKIXQskitUtehcBZZCe9vLpLeIbM51kmSCx9Cd9+VqpayjW5O6Bg==",
   "success": true,
-  "projectFilePath": "C:\\RepoAspNet\\emCamadas\\MyMusic.Core\\MyMusic.Core.csproj",
+  "projectFilePath": "C:\\RepoAspNet\\EmCamadas\\MyMusic.Core\\MyMusic.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
