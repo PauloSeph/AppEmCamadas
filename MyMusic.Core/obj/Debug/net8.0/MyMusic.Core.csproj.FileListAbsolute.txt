@@ -1,0 +1,12 @@
+C:\RepoAspNet\emCamadas\MyMusic.Core\bin\Debug\net8.0\MyMusic.Core.deps.json
+C:\RepoAspNet\emCamadas\MyMusic.Core\bin\Debug\net8.0\MyMusic.Core.dll
+C:\RepoAspNet\emCamadas\MyMusic.Core\bin\Debug\net8.0\MyMusic.Core.pdb
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\MyMusic.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\MyMusic.Core.AssemblyInfoInputs.cache
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\MyMusic.Core.AssemblyInfo.cs
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\MyMusic.Core.csproj.CoreCompileInputs.cache
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\MyMusic.Core.sourcelink.json
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\MyMusic.Core.dll
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\refint\MyMusic.Core.dll
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\MyMusic.Core.pdb
+C:\RepoAspNet\emCamadas\MyMusic.Core\obj\Debug\net8.0\ref\MyMusic.Core.dll
