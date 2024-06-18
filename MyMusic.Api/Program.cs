@@ -1,6 +1,8 @@
 
 using System.Text.Json.Serialization;
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using MyMusic.Api.Mapping;
 using MyMusic.Core.Repositories;
 using MyMusic.Core.Services;
 using MyMusic.Data.Data;
@@ -22,10 +24,20 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
-        builder.Services.AddControllers().AddJsonOptions(x =>
-                   x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.Preserve);
-                   
-        // builder.Services.AddControllers();
+
+        // Solução RUIM! Devemos usar o DTOs.
+        // builder.Services.AddControllers().AddJsonOptions(x =>
+        //            x.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles
+        //            );
+        
+        builder.Services.AddControllers();
+
+        // builder.Services.AddAutoMapper(typeof(MappingProfile)); // Pode fazer
+        // builder.Services.AddAutoMapper(typeof(Startup)); // antigo
+        builder.Services.AddAutoMapper(typeof(Program).Assembly); // pode fazer
+
+
+
 
 
         var connectString = builder.Configuration.GetConnectionString("MyStrConnect");

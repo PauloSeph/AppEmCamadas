@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ACrsLB642xuX+41xdo/v5yscsDjiubUNR1iosskBmLYtyWlq6CU/jgEd5Ong0K8Q6NiL9/xHKUpeE6kqdP8I/g==",
+  "dgSpecHash": "m9qaVEz5cqxYnkdy7DnOP6s2SCqk/zkO5IZXiqplcF5koEiNWsPAM9oo68Bs8Xtk8OYG5Vsi16eWHqFQ5tb1Ug==",
   "success": true,
   "projectFilePath": "C:\\RepoAspNet\\EmCamadas\\MyMusic.Api\\MyMusic.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Zef\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Zef\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512",
     "C:\\Users\\Zef\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Zef\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Zef\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
