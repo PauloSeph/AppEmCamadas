@@ -6,10 +6,25 @@ using MyMusic.Core.models;
 using MyMusic.Core.Repositories;
 using MyMusic.Core.Services;
 
+
+
+/* NESSAS CLASSES DE SERVICO nós teremos as regras de negocio, como por exmeplo, podemos verificar algo 
+ como por exemplo, se aquele nome está correto ou se a ideia está correta, apesar que temos as validacoes.
+
+Mas por exemplo, aqui podemos tratar daquela ideia de criar as parcelas para cada venda, ou seja, de acordo com 
+a quantidade de parcelas criar as parcelas relacionadas a essa venda, etc.
+
+Então qualquer outra verificacao que seja relacionado a uma regra do negocio de se passada aqui antes
+para depois ir para o banco de dados. Isso porque como o MIddleware, quando usamos algumas validacoes
+como de Data Annotations ou de tipos de dados, ele basicamente já retorna a resposta sem mesmo entrar no
+controller. Lembrando que tem os outros validators que podemos fazer como teve nesse curso usando as DTOs.
+*/
 namespace MyMusic.Services
 {
     public class ArtistService : IArtistService
     {
+
+        
         private readonly IUnitOfWork _unitOfWork;
         public ArtistService(IUnitOfWork unitOfWork)
         {
@@ -18,6 +33,8 @@ namespace MyMusic.Services
 
         public async Task<Artist> CreateArtist(Artist newArtist)
         {
+
+            
              await _unitOfWork.Artists
                 .AddAsync(newArtist);               
 
