@@ -9,6 +9,8 @@ using MyMusic.Data.Data;
 
 namespace MyMusic.Data.Repositories
 {
+    // o Context.Set: 
+    // Retorna uma DbSet<TEntity> instância para acesso a entidades do tipo especificado no contexto e no repositório subjacente.
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class
     {
         protected readonly DataContext Context;
@@ -26,6 +28,10 @@ namespace MyMusic.Data.Repositories
         {
             await Context.Set<TEntity>().AddRangeAsync(entities);
         }
+
+
+         // Observe que o retorno desa funcao é um tipo Expression Function.
+        // Argument 2: cannot convert from 'bool' to 'System.Linq.Expressions.Expression<System.Func<TEntity, bool>>'
 
         public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
         {
@@ -58,19 +64,8 @@ namespace MyMusic.Data.Repositories
         }
     }
 
-
-      /* Nota, no arquivo o cara está dependendo do BbContext ao inves da classe que implementa o DBContext
-          no seu construtor para injecao de dependencia. Por exemplo:
-
-        //        protected readonly DbContext Context;
-                
-        //         public Repository(DbContext context)
-        //         {
-        //             this.Context = context;
-        //         }
-        */
-
-        /* E nas classes posteriores que implementam esse RepositoryBase
+        //NOTA
+        /* Nas classes posteriores que implementam esse RepositoryBase
         ele está referenciando o Construtor base mas usando outro nome para o DbContext, como MyMusicDbContext
 
         public MusicRepository(MyMusicDbContext context) 
