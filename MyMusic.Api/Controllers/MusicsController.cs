@@ -28,7 +28,8 @@ namespace MyMusic.Api.Controllers
         //     return Ok(musics);
         // }
 
-        // DTO with AutoMapper (correto)
+
+        // DTO with AutoMapper (correto a se fazer)
         [HttpGet]
         public async Task<ActionResult<IEnumerable<MusicResource>>> GetAllMusics()
         {
@@ -75,10 +76,14 @@ namespace MyMusic.Api.Controllers
             var validator = new SaveMusicResourceValidator();
             var validationResult = await validator.ValidateAsync(saveMusicResource);
 
+            
+            // Acho que isso nao deveria estar aqui, pois a classe de servico talvez que deveria ver isso
+
             var requestIsInvalid = id == 0 || !validationResult.IsValid;
 
             if (requestIsInvalid)
                 return BadRequest(validationResult.Errors); // this needs refining, but for demo it is ok
+
 
             var musicToBeUpdate = await _musicService.GetMusicById(id);
 

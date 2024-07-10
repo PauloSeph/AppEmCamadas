@@ -28,20 +28,7 @@ namespace MyMusic.Data.Repositories
                 .Include(m => m.Artist)
                 .SingleOrDefaultAsync(m => m.Id == id);
 
-            if (test != null)
-            {
-                return test;
-
-            }
-            else
-            {
-                throw new ArgumentException();
-            }
-
-            // return await Context.Musics
-            //     .Include(m => m.Artist)
-            //     .SingleOrDefaultAsync(m => m.Id == id);
-                
+            return test!;
         }
 
         public async Task<IEnumerable<Music>> GetAllWithArtistByArtistIdAsync(int artistId)
